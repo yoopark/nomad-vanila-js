@@ -1,0 +1,192 @@
+* {
+	font-family: "Arial";
+}
+
+body, 
+html {
+	margin: 0;
+	height: 100%;
+	color: white;
+}
+
+button {
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+	border: none;
+	padding: 5px;
+}
+
+button:hover {
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+input {
+	color: white;
+	font-size: 25px;
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid #CCC;
+}
+
+input:focus {
+	outline: none;
+}
+
+h1, 
+h2, 
+h3 {
+	margin: 0;
+}
+
+.hidden {
+	display: none;
+}
+
+/* --------------------- */
+
+.search-form {
+	position: absolute;
+	margin: 20px 0 0 20px;
+}
+
+.search-form > input {
+	width: 200px;
+}
+
+.weather {
+	position: absolute;
+	margin: 20px 20px 0 0;
+	right: 0;
+	font-size: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.weather__container {
+	display: flex;
+	align-items: center;
+}
+
+.weather__city {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+section {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.clock {
+	font-size: 130px;
+}
+
+.greeting {
+	font-size: 50px;
+	margin-bottom: 50px;
+}
+
+.pomodoro {
+/*	display: flex;*/
+	flex-direction: column;
+	align-items: center;
+	margin: 30px;
+}
+
+.pomodoro__timer {
+	font-size: 130px;
+}
+
+.pomodoro > h2 {
+	font-size: 35px;
+}
+
+.pomodoro__timer-btn {
+	color: white;
+	background-color: rgba(0, 0, 0, 0.5);
+	font-size: 20px;
+	padding: 5px 15px 5px 15px;
+	border-radius: 15px;
+}
+
+.pomodoro__timer-btn:hover {
+	background-color: rgba(255, 255, 255, 0.5);	
+}
+
+.focus-h {
+	margin: 30px;
+}
+
+.focus-form > input {
+	width: 500px;
+	text-align: center;
+	
+}
+
+.focus-today-h {
+	font-size: 20px;	
+}
+
+.focus-today {
+	font-size: 35px;
+}
+
+.quote {
+	position: fixed;
+	bottom: 50px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.quote__quote {
+	font-size: 23px;
+	font-style: italic;
+}
+
+.quote__author {
+	font-size: 12px;
+}
+
+.todo-label {
+	font-size: 20px;
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}
+
+.todo {
+	background-color: white;
+	color: black;
+	padding: 10px;
+	border-radius: 10px;	
+}
+
+.todo__form > input {
+	color: black;
+	font-size: 15px;
+}
+
+#hiddenToDoBtn:checked + .todo {
+	display: block;
+	position: absolute;
+	bottom: 80px;
+	right: 20px;
+}
+
+.todo__list {
+	list-style-type: none;
+	padding-left: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: left;	
+}
+
+ul.todo__list li {
+	margin-right: 15px;	
+}

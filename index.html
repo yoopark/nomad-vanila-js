@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/style.css">
+<title>Momentum App</title>
+</head>
+<body>
+<header>
+<form class="search-form">
+	<input type="text" placeholder="Search" required>
+</form>
+<div class="weather">
+	<div class="weather__container">
+		<img>
+		<span class="weather__temp"></span>	
+	</div>
+	<div class="weather__city"></div>
+</div>
+</header>
+<section>
+<div class="clock">00:00</div>
+<form class="login-form hidden">
+	<input type="text" placeholder="What is your name?" required maxlength="15">
+</form>
+<h2 class="greeting hidden"></h2>
+<div class="pomodoro hidden">
+	<div class="pomodoro__timer">25:00</div>
+	<h2>Time to focus.</h2>
+	<button class="pomodoro__timer-btn" value="NO">Start</button>
+	<!-- Make Reset Btn -->
+</div>
+<h2 class="focus-h hidden">What is your main focus for today?</h2>
+<form class="focus-form hidden">
+	<input type="text" required>
+</form>
+<h2 class="focus-today-h hidden">TODAY</h2>
+<div class="focus-today hidden">
+	<input type="checkbox">
+	<span></span>
+	<button class="focus-today__delete-btn">❌</button>
+	<button class="focus-today__pomodoro-btn" value="NO">🕑</button>
+</div>
+</section>
+<footer>
+<div class="quote">
+	<span class="quote__quote"></span>
+	<span class="quote__author"></span>
+</div>
+
+<label class="todo-label hidden" for="hiddenToDoBtn">Todo</label>
+<input type="checkbox" class="hidden" id="hiddenToDoBtn">
+<div class="todo hidden">
+	<ul class="todo__list"></ul>
+	<form class="todo__form hidden">
+		<input type="text" placeholder="Write a To Do" required>
+	</form>
+</div>
+</footer>
+
+<script src="js/api_key.js"></script>
+<script src="js/background.js"></script>
+<script src="js/search.js"></script>
+<script src="js/weather.js"></script>
+<script src="js/clock.js"></script>
+<script src="js/greetings.js"></script>
+<script src="js/pomodoro.js"></script>
+<script src="js/focus.js"></script>
+<script src="js/quotes.js"></script>
+<script src="js/todo.js"></script>
+</body>
+</html>
