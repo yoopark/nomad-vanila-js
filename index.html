@@ -5,6 +5,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="css/style.css">
 <title>Momentum App</title>
+	
+<script defer src="js/api_key.js"></script>
+<script defer src="js/background.js"></script>
+<script defer src="js/search.js"></script>
+<script defer src="js/weather.js"></script>
+<script defer src="js/clock.js"></script>
+<script defer src="js/greetings.js"></script>
+<script defer src="js/pomodoro.js"></script>
+<script defer src="js/focus.js"></script>
+<script defer src="js/quotes.js"></script>
+<script defer src="js/todo.js"></script>
+	
 </head>
 <body>
 <header>
@@ -19,7 +31,7 @@
 	<div class="weather__city"></div>
 </div>
 </header>
-<section>
+<main>
 <div class="clock">00:00</div>
 <form class="login-form hidden">
 	<input type="text" placeholder="What is your name?" required maxlength="15">
@@ -42,7 +54,7 @@
 	<button class="focus-today__delete-btn">❌</button>
 	<button class="focus-today__pomodoro-btn" value="NO">🕑</button>
 </div>
-</section>
+</main>
 <footer>
 <div class="quote">
 	<span class="quote__quote"></span>
@@ -58,16 +70,5 @@
 	</form>
 </div>
 </footer>
-
-<script src="js/api_key.js"></script>
-<script src="js/background.js"></script>
-<script src="js/search.js"></script>
-<script src="js/weather.js"></script>
-<script src="js/clock.js"></script>
-<script src="js/greetings.js"></script>
-<script src="js/pomodoro.js"></script>
-<script src="js/focus.js"></script>
-<script src="js/quotes.js"></script>
-<script src="js/todo.js"></script>
 </body>
 </html>
