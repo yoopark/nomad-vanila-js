@@ -1,10 +1,12 @@
 # nomad-vanila-js
-노마드코더의 "바닐라 JS로 크롬 앱 만들기"를 보며 만든, Momentum 크롬 익스텐션 클론코딩
-> 이 프로젝트를 진행하면서 배운 내용은 [여기](https://yopark.notion.site/JS-TIL-54b9cc2355c14c58b5dfd05cd18da388)에 정리되어 있습니다. 
-
+**노마드코더의 "바닐라 JS로 크롬 앱 만들기"를 보며 만든, Momentum 크롬 익스텐션 클론코딩**
+> 이 프로젝트를 진행하면서 배운 내용은 [여기](https://yopark.notion.site/JS-TIL-54b9cc2355c14c58b5dfd05cd18da388)에 정리되어 있습니다.    
+> <https://yoopark.github.io/nomad-vanila-js>로 들어가면, 제가 만든 토이 프로젝트 결과물을 볼 수 있습니다.
+---
+  
 위 강의는 Chrome 확장 프로그램인 [Momentum](https://chrome.google.com/webstore/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca?hl=ko)을 클론코딩하는 방식으로 진행된다. 
 
-<https://yoopark.github.io/nomad-vanila-js>로 들어가면, 필자의 토이 프로젝트 결과물을 볼 수 있다. 
+
 
 ![](https://velog.velcdn.com/images/yoopark/post/f620d19b-3a81-4418-80d8-74e1a123af1a/image.png)
 
